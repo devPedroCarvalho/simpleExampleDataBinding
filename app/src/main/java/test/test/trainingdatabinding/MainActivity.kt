@@ -19,6 +19,8 @@ class MainActivity : AppCompatActivity() {
             behaviorProgressBar()
         }
 
+        binding.person = dataPerson()
+
     }
 
     private fun behaviorProgressBar(){
@@ -34,4 +36,12 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
+
+    private fun dataPerson():Person{
+        return Person(
+            name = "Pedro",
+            email = "developepedrocarvalho@gmail.com"
+        )
+    }
+
 }
