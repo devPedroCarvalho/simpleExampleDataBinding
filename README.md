@@ -61,7 +61,23 @@ Implementar o objeto Binding na sua Activity ou fragment. Exemplo na Activity:
 ```
 ### DataBinding ou Kotlin Android Extensions 
 
-Com o Kotlin Android Extensions é possível evitar o findViewById() em projetos pequenos. E é muito mais fácil de utilizar e é útil em algumas situações. Mas não é uma prática recomendada pelo Google. Além disso quando o projeto é maior você perde muitas vantagens fornecidas pelo DataBinding. 
+Com o Kotlin Android Extensions é possível evitar o findViewById() em projetos pequenos. E é muito mais fácil de utilizar e é útil em algumas situações. Mas não é uma prática recomendada pelo Google. Além disso quando o projeto é maior você perde muitas vantagens fornecidas pelo Data Binding. 
+
+### Alguns benefícios do Data Binding:
+
+1) Atualize os valores automaticamente. (Não é necessário controlar todas as maneiras como um valor pode ser atualizado)
+
+2) Código mais legível
+
+3) Código mais sustentável
+
+4) Tempos de desenvolvimento mais rápidos
+
+5) Tempos de execução mais rápidos
+
+6) Adequado para arquiteturas MVVM e MVI.
+
+7) Erros podem ser encontrados durante o tempo de compilação.
 
 ### FIMMMMMM! 
 
